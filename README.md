@@ -16,6 +16,21 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
+## Wifi module ESP8266 - IoT
+
+Sirven para añadir WIFI al microcontrolador
+
+- Se alimenta a 3.3v
+- Alimentarlo con una fuente externa al Arduino, tiene picos de 200ma (al arrancar).
+- Es un SoC: microcontrolador más wifi.
+
+
+![alt tag](static/WiFi-Serial-Transceiver-Module-ESP8266.jpg)
+![alt tag](static/esp8266-pinout-800x379.jpg)
+
+
+[Comparando Arduino y el ESP8266](http://polaridad.es/compara-arduino-esp8266/)
+
 
 ## NRF24l01
 
