@@ -1,8 +1,15 @@
 # ARDUINO - ATTINY - WIRELESS - IOT
 
+Table of contents
+=================
 
+* [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
+* [NRF24l01](#nrf24l01)
+* [ATtiny85](#attiny85)
+* [GPIO pinout](#gpio-pinout)
 
-## IoT with Arduino and RPi
+IoT with Arduino and RPi
+----------------------------
 
 ### Raspberry (gateway) and Arduino (node sensor)
 
@@ -32,7 +39,8 @@ Sirven para añadir WIFI al microcontrolador
 [Comparando Arduino y el ESP8266](http://polaridad.es/compara-arduino-esp8266/)
 
 
-## NRF24l01
+NRF24l01
+-----------
 
 [Tutorial](http://www.prometec.net/nrf2401/)
 
@@ -65,7 +73,8 @@ Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
 
 
-## ATtiny85
+ATtiny85
+--------------
 
 ### Programar el ATtiny con arduino
 
