@@ -3,7 +3,7 @@
 Table of contents
 =================
 
-* [IoT with Arduino and RPi](#tot-with-arduino-and-rpi)
+* [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
 * [NRF24l01](#nrf24l01)
 * [ATtiny85](#attiny85)
 * [GPIO pinout](#gpio-pinout)
