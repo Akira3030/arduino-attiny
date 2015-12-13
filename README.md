@@ -2,7 +2,7 @@
 
 
 
-## IOT with Arduino and RPi
+## IoT with Arduino and RPi
 
 ### Raspberry (gateway) and Arduino (node sensor)
 
