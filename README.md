@@ -4,9 +4,9 @@ Table of contents
 =================
 
 * [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
+* [Wifi module ESP8266](#wifi-module-esp8266)
 * [NRF24l01](#nrf24l01)
 * [ATtiny85](#attiny85)
-* [GPIO pinout](#gpio-pinout)
 
 IoT with Arduino and RPi
 ----------------------------
@@ -23,7 +23,8 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
-## Wifi module ESP8266 - IoT
+Wifi module ESP8266
+--------------------
 
 Sirven para añadir WIFI al microcontrolador
 
