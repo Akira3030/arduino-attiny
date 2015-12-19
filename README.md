@@ -88,13 +88,14 @@ avr-dude --> programmer
 ```bash
 $ apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
 
-# comentario
-$ avr-gcc -g -Os -mmcu=attiny88 -c holaM_tiny.c
-$ avr-gcc -g -mmcu=attiny88 -o holaM_tiny.out holaM_tiny.o
+# Compilar 
+$ avr-gcc -g -Os -mmcu=attiny88 -c hola_mundo_attiny85.c
+$ avr-gcc -g -mmcu=attiny88 -o hola_mundo_attiny85.out hola_mundo_atttiny85.o
 
-# Comando para crear archivo hex. 
-$ avr-objcopy -j .text -O ihex holaM_tiny.out holaM_tiny.hex 
-```
+# Crear el hex. 
+$ avr-objcopy -j .text -O ihex hola_mundo_atttiny85.out hola_mundo_attiny85.hex
+
+# cargar el .hex en el attiny usando un programador.
 
 
 
