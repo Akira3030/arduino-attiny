@@ -96,7 +96,7 @@ $ avr-gcc -g -mmcu=attiny88 -o hola_mundo_attiny85.out hola_mundo_atttiny85.o
 $ avr-objcopy -j .text -O ihex hola_mundo_atttiny85.out hola_mundo_attiny85.hex
 
 # cargar el .hex en el attiny usando un programador.
-
+```
 
 
 
