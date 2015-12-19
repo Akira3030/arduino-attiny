@@ -79,11 +79,14 @@ ATtiny85
 
 ### Programar el ATtiny
 
-binutils-avr --> compiler
-gcc-avr --> compiler
-avr-libc --> compiler
-gdb-avr --> debugger
-avr-dude --> programmer
+Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
+de la placa de circuito impreso para reprogramarlo
+
+- binutils-avr --> 
+- gcc-avr --> compilador
+- avr-libc --> librería
+- gdb-avr --> debugger
+- avr-dude --> 
 
 ```bash
 $ apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
