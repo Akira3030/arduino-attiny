@@ -113,7 +113,21 @@ int main(void)
 }
 
 ```
+Programador ISP
+```
++-----------+
+|(6) (4) (2)|
+|(5) (3) (1)|
++-----------+
+     |_|
+```
 
+1. MISO
+2. Vcc
+3. SCK
+4. MOSI
+5. Reset
+6. Ground
 
 
 
