@@ -82,9 +82,9 @@ ATtiny85
 Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
 de la placa de circuito impreso para reprogramarlo
 
-- binutils-avr --> 
-- gcc-avr --> compilador
-- avr-libc --> librería
+- binutils-avr --> herramientas como el ensamblador, enlazador, etc.
+- gcc-avr --> compilador C GNU (compatible con ANSI C)
+- avr-libc --> librería AVR C
 - gdb-avr --> debugger
 - avr-dude --> 
 
@@ -100,6 +100,20 @@ $ avr-objcopy -j .text -O ihex hola_mundo_atttiny85.out hola_mundo_attiny85.hex
 
 # cargar el .hex en el attiny usando un programador.
 ```
+Programa básico
+```c
+#include<avr/io.h>
+
+int main(void)
+{
+        for(;;)
+        {
+
+        }
+}
+
+```
+
 
 
 
