@@ -77,6 +77,29 @@ Alimentacion a 3.3V o 5V.
 ATtiny85
 --------------
 
+### Programar el ATtiny
+
+binutils-avr --> compiler
+gcc-avr --> compiler
+avr-libc --> compiler
+gdb-avr --> debugger
+avr-dude --> programmer
+
+```bash
+$ apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
+
+# comentario
+$ avr-gcc -g -Os -mmcu=attiny88 -c holaM_tiny.c
+$ avr-gcc -g -mmcu=attiny88 -o holaM_tiny.out holaM_tiny.o
+
+# Comando para crear archivo hex. 
+$ avr-objcopy -j .text -O ihex holaM_tiny.out holaM_tiny.hex 
+```
+
+
+
+
+
 ### Programar el ATtiny con arduino
 
 [Programar el ATtiny con Arduino](http://aerobotclubderobticadeaeronuticos.blogspot.com.es/2011/06/micros-pequenos-para-proyectos-pequenos.html)
