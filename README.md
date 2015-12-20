@@ -118,14 +118,11 @@ int main(void)
 
 ```
 Programador ISP
+
+![alt tag](static/programador-usbasp-isp-para-atmel-avr.jpg)
+
+Pinout
 ![alt tag](attiny_pinout_programmer.png)
-```
-+-----------+
-|(6) (4) (2)|
-|(5) (3) (1)|
-+-----------+
-     |_|
-```
 
 1. MISO
 2. Vcc
