@@ -122,7 +122,7 @@ Programador ISP
 ![alt tag](static/programador-usbasp-isp-para-atmel-avr.jpg)
 
 Pinout
-![alt tag](attiny_pinout_programmer.png)
+![alt tag](static/attiny_pinout_programmer.png)
 
 1. MISO
 2. Vcc
