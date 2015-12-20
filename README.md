@@ -82,6 +82,8 @@ ATtiny85
 Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
 de la placa de circuito impreso para reprogramarlo.
 
+![alt tag](static/attiny85_pines.png)
+
 
 
 - binutils-avr --> herramientas como el ensamblador, enlazador, etc.
