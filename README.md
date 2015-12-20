@@ -80,13 +80,16 @@ ATtiny85
 ### Programar el ATtiny
 
 Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
-de la placa de circuito impreso para reprogramarlo
+de la placa de circuito impreso para reprogramarlo.
+
+
 
 - binutils-avr --> herramientas como el ensamblador, enlazador, etc.
 - gcc-avr --> compilador C GNU (compatible con ANSI C)
 - avr-libc --> librería AVR C
 - gdb-avr --> debugger
-- avr-dude --> 
+- avr-dude --> programador
+- AVRStudio --> descarga gratis desde www.atmel.com (solo Windows)
 
 ```bash
 $ apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
