@@ -77,7 +77,7 @@ Alimentacion a 3.3V o 5V.
 ATtiny85
 --------------
 
-![alt tag](attiny85pinout1.png)
+![alt tag](static/attiny85pinout1.png)
 
 ### Programar el ATtiny
 
