@@ -77,13 +77,12 @@ Alimentacion a 3.3V o 5V.
 ATtiny85
 --------------
 
+![alt tag](attiny85pinout1.png)
+
 ### Programar el ATtiny
 
 Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
 de la placa de circuito impreso para reprogramarlo.
-
-![alt tag](static/attiny85_pines.png)
-
 
 
 - binutils-avr --> herramientas como el ensamblador, enlazador, etc.
@@ -119,6 +118,7 @@ int main(void)
 
 ```
 Programador ISP
+![alt tag](attiny_pinout_programmer.png)
 ```
 +-----------+
 |(6) (4) (2)|
