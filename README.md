@@ -77,6 +77,64 @@ Alimentacion a 3.3V o 5V.
 ATtiny85
 --------------
 
+### Programar el ATtiny
+
+Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
+de la placa de circuito impreso para reprogramarlo.
+
+
+
+- binutils-avr --> herramientas como el ensamblador, enlazador, etc.
+- gcc-avr --> compilador C GNU (compatible con ANSI C)
+- avr-libc --> librería AVR C
+- gdb-avr --> debugger
+- avr-dude --> programador
+- AVRStudio --> descarga gratis desde www.atmel.com (solo Windows)
+
+```bash
+$ apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
+
+# Compilar 
+$ avr-gcc -g -Os -mmcu=attiny88 -c hola_mundo_attiny85.c
+$ avr-gcc -g -mmcu=attiny88 -o hola_mundo_attiny85.out hola_mundo_atttiny85.o
+
+# Crear el hex. 
+$ avr-objcopy -j .text -O ihex hola_mundo_atttiny85.out hola_mundo_attiny85.hex
+
+# cargar el .hex en el attiny usando un programador.
+```
+Programa básico
+```c
+#include<avr/io.h>
+
+int main(void)
+{
+        for(;;)
+        {
+
+        }
+}
+
+```
+Programador ISP
+```
++-----------+
+|(6) (4) (2)|
+|(5) (3) (1)|
++-----------+
+     |_|
+```
+
+1. MISO
+2. Vcc
+3. SCK
+4. MOSI
+5. Reset
+6. Ground
+
+
+
+
 ### Programar el ATtiny con arduino
 
 [Programar el ATtiny con Arduino](http://aerobotclubderobticadeaeronuticos.blogspot.com.es/2011/06/micros-pequenos-para-proyectos-pequenos.html)
