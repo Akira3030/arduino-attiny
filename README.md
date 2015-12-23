@@ -6,6 +6,7 @@ Table of contents
 * [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
 * [Wifi module ESP8266](#wifi-module-esp8266)
 * [NRF24l01](#nrf24l01)
+* [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
 
 IoT with Arduino and RPi
@@ -74,6 +75,12 @@ Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
 
 
+Funduino pro mini ATMEGA328P
+----------------------------
+![alt tag](static/funduino-pro-mini-pinout.png)
+Alimentación: 3.3V o 5V
+
+
 ATtiny85
 --------------
 
@@ -118,14 +125,11 @@ int main(void)
 
 ```
 Programador ISP
-![alt tag](attiny_pinout_programmer.png)
-```
-+-----------+
-|(6) (4) (2)|
-|(5) (3) (1)|
-+-----------+
-     |_|
-```
+
+![alt tag](static/programador-usbasp-isp-para-atmel-avr.jpg)
+
+Pinout
+![alt tag](static/attiny_pinout_programmer.png)
 
 1. MISO
 2. Vcc
