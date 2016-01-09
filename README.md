@@ -8,6 +8,7 @@ Table of contents
 * [NRF24l01](#nrf24l01)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
+* [Transmision de video](#transmision-de-video)
 
 IoT with Arduino and RPi
 ----------------------------
@@ -165,6 +166,32 @@ Utilizamos el arduino como programador ISP
 [Tutorial ATtiny 85](http://www.raspberrypi-es.com/category/attiny85/)
 
 ![alt tag](static/attiny_44_84_Pinout.png)
+
+### Transmision de video
+
+Elementos: camara, transmisor y monitor
+
+CAMARA CCD
+En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen (CCD  ó CMOS) que convierte la luz en pulsos eléctricos para más tarde  procesarlos mediante circuitos electrónicos y poder crear así la señal de video.
+Color y "blanco y negro"
+Medio de transmisión: inalambrio por radiofrecuencia
+Señal digital
+Número de pixeles: 128x128 
+Captar video, imagenes o sonido
+
+CODECS y COMPRESIÓN
+Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
+
+TRANSMISIÓN DE LA SEÑAL
+Partes de la modulación
+Señal de imagen
+Señal de sincronización de video
+Señal de voz
+Señal de información de control
+
+
+
+
 
 
 
