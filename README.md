@@ -171,23 +171,31 @@ Utilizamos el arduino como programador ISP
 
 Elementos: camara, transmisor y monitor
 
-CAMARA CCD
-En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen (CCD  ó CMOS) que convierte la luz en pulsos eléctricos para más tarde  procesarlos mediante circuitos electrónicos y poder crear así la señal de video.
-Color y "blanco y negro"
-Medio de transmisión: inalambrio por radiofrecuencia
-Señal digital
-Número de pixeles: 128x128 
-Captar video, imagenes o sonido
+CAMARA CCD, CMOS, FPV, CMOS HD, etc
+- En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen (CCD  ó CMOS) que convierte la luz en pulsos eléctricos para más tarde  procesarlos mediante circuitos electrónicos y poder crear así la señal de video.
+- Color y "blanco y negro"
+- Medio de transmisión: inalambrio por radiofrecuencia
+- Señal digital
+- Número de pixeles: 128x128 
+- Captar video, imagenes o sonido
+- FPV --> First Person View
+- VTX --> Video transmiter
+- VRX --> Video receiver
+- Camara FPV --> frecuencias: 900 Mhz, 1.2 ghz, 1.3 ghz, 2.4 ghz y 5.8 ghz
 
 CODECS y COMPRESIÓN
-Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
+- Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
 
 TRANSMISIÓN DE LA SEÑAL
-Partes de la modulación
+- Partes de la modulación
 Señal de imagen
 Señal de sincronización de video
 Señal de voz
 Señal de información de control
+
+- Tarjeta de radiofrecuencia halfduplex 100kbps
+El enlace se controla por una Raspberry Pi
+La camara se controla con un servomotor
 
 
 
