@@ -76,6 +76,14 @@ Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
 
 
+RF 315/433 MHz Transmitter-receiver Module
+-------------------------------------------
+![alt tag](static/433_1.jpg)
+
+Problema: alcance muy corto 1.5m - 2m, posibilidades de perdida de datos alta.
+A favor: bajo coste --> 1.5€ ambos módulos
+
+
 Funduino pro mini ATMEGA328P
 ----------------------------
 ![alt tag](static/funduino-pro-mini-pinout.png)
