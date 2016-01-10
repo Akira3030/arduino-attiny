@@ -8,7 +8,7 @@ Table of contents
 * [NRF24l01](#nrf24l01)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
-* [Transmision de video](#transmision-de-video-en-tiempo-real)
+* [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
 IoT with Arduino and RPi
 ----------------------------
