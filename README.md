@@ -169,7 +169,11 @@ Utilizamos el arduino como programador ISP
 
 ### Transmision de video
 
-Elementos: camara, transmisor y monitor
+ELEMENTOS
+- Camara o micro-camara
+- Transmisor
+- Receptor
+- Monitor, LCD, ...
 
 CAMARA CCD, CMOS, FPV, CMOS HD, etc
 - En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen (CCD  ó CMOS) que convierte la luz en pulsos eléctricos para más tarde  procesarlos mediante circuitos electrónicos y poder crear así la señal de video.
