@@ -216,7 +216,50 @@ Señal de información de control
 El enlace se controla por una Raspberry Pi
 La camara se controla con un servomotor
 
-SISTEMA REAL
+FRECUENCIA Y POTENCIA
+
+Frecuencias usadas para FPV (transmisión de video):
+
+- 900Mhz (más baja)  --> ilegal en españa
+- 1.3Ghz --> necesaria licencia de radioaficionado
+- 2.4Ghz
+- 5.8Ghz (más alta)
+
+Particularidades
+
+- Cuanto mas baja la frecuencia mayor alcance. 
+- Cuanto mas alta menor alcance. (con la misma potencia de emisión)
+- Cuanto mas baja la frecuencia mayor penetración en obstáculos. 
+- Cuanto mas alta mas problemas tiene para penetrar los obstáculos.
+- Cuanto mas baja la frecuencia antenas mas grandes.
+- Cuanto mas alta antenas mas pequeñas.
+- Cuanto más baja la frecuencia, menor ancho de banda y por lo tanto menor calidad de imagen. 
+- Cuando más alta, más ancho de banda y mayor calidad de imagen.
+- Lo ideal es la frecuencia más baja posible dentro de la gama ya que cuanta menos frecuencia mayor es la longitud de onda y por tanto mejor es la penetrabilidad de una onda en los distintos obstáculos
+
+Cada frecuencia tiene una serie de canales que los fabricantes han fijado. Por ejemplo, en 5.8Ghz hay transmisores de 32 canales. Esto nos permite correr más gente a la vez en el mismo rango de frecuencia pero en distintos canales sin que se solape la señal de vídeo.
+
+Es tipico usar la emisora de radio a 2.4 GHz y la transmisión de video a 5.8 GHz
+
+LEGALIDAD
+
+- 900 MHz --> la más obvia para FPV pero se asigno para la red 3G de teléfonos móviles -->  no es legal
+- 1.2 GHz --> buena penetración frente a los obstáculos --> no es legal (reservada para otros usos).
+- 1.3 GHz --> esta banda es muy parecida a la anterior --> para transmisión aérea --> no es legal. 
+- 2.4 GHz --> muy apropiada para señales de radio. Los equipos de video con transmisión a 2.4 GHz son muy populares entre las frecuencias FPV y es probablemente la elección más barata. 
+Sin embargo la habilidad de penetración no es tan buena si la comparamos con las bandas de frecuencia anteriores. También esta banda es la más usada para muchos otros equipos como WiFi, Bluetooth, transmisores y receptores RC y es probable que haya demasiadas interferencias. Por lo tanto, si decides usar esta banda para FPV necesitarás usar otra distinta para tu transmisor RC y para la telemetría (si la estás usando).
+- 5.8 GHz --> las antenas circulares polarizadas pueden ser muy pequeñas gracias a la elevada frecuencia. Buena banda para el FPV. Aunque tiene una potencia de radio bastante decente, debido a su alta frecuencia no tiene un buen poder de penetración. Por lo tanto estos vuelos suelen están limitados a donde alcance la vista principalmente. normalmente usado entre 500m y 1km.
+
+POTENCIA DE LA SEÑAL (mW)
+
+- A mayor potencia de emisión más lejos llegaremos.
+- A más potencia de emisión más grandes son los transmisores, más consumen y más se calientan.
+- Cuidado con la legalidad --> no se si debe ser de 25 mw máximo.
+- Mientras más baja sea la frecuencia menos mw necesitas para conseguir la misma distancia.
+
+
+
+PRODUCTOS COMERCIALES PARA SISTEMAS FPV
 
   [Fuente](http://www.dronesbaratoscaseros.com/) 
   
