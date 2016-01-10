@@ -195,7 +195,7 @@ En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen 
 Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
 
 
-**2. Frecuencia y potencia**
+**2. Frecuencia**
 
 Frecuencias usadas para FPV (transmisión de video): 900Mhz (la más baja), 1.3Ghz, 2.4Ghz y 5.8Ghz (la más alta)
 
@@ -215,7 +215,14 @@ Cada frecuencia tiene una serie de canales que los fabricantes han fijado. Por e
 
 Es tipico usar la emisora de radio a 2.4 GHz y la transmisión de video a 5.8 GHz
 
-**3. Legalidad de las frecuencias**
+**3. Potencia de la señal(mW)**
+
+- A mayor potencia de emisión más lejos llegaremos.
+- A más potencia de emisión más grandes son los transmisores, más consumen y más se calientan.
+- Cuidado con la legalidad --> no se si debe ser de 25 mw máximo.
+- Mientras más baja sea la frecuencia menos mw necesitas para conseguir la misma distancia.
+
+**4. Legalidad de las frecuencias (España)**
 
 - 900 MHz --> la más obvia para FPV pero se asigno para la red 3G de teléfonos móviles -->  no es legal
 - 1.2 GHz --> buena penetración frente a los obstáculos --> no es legal (reservada para otros usos).
@@ -224,15 +231,14 @@ Es tipico usar la emisora de radio a 2.4 GHz y la transmisión de video a 5.8 GH
 Sin embargo la habilidad de penetración no es tan buena si la comparamos con las bandas de frecuencia anteriores. También esta banda es la más usada para muchos otros equipos como WiFi, Bluetooth, transmisores y receptores RC y es probable que haya demasiadas interferencias. Por lo tanto, si decides usar esta banda para FPV necesitarás usar otra distinta para tu transmisor RC y para la telemetría (si la estás usando).
 - 5.8 GHz --> las antenas circulares polarizadas pueden ser muy pequeñas gracias a la elevada frecuencia. Buena banda para el FPV. Aunque tiene una potencia de radio bastante decente, debido a su alta frecuencia no tiene un buen poder de penetración. Por lo tanto estos vuelos suelen están limitados a donde alcance la vista principalmente. normalmente usado entre 500m y 1km.
 
-**4. Potencia de la señal(mW)**
+**5. Legalidad de la potencia (España)**
 
-- A mayor potencia de emisión más lejos llegaremos.
-- A más potencia de emisión más grandes son los transmisores, más consumen y más se calientan.
-- Cuidado con la legalidad --> no se si debe ser de 25 mw máximo.
-- Mientras más baja sea la frecuencia menos mw necesitas para conseguir la misma distancia.
+- 2.4 GHz --> 10 mW.
+- 5.8 GHz --> 25 mW.  
 
 
-**5. Productos comerciales para sistemas FPV**
+
+**6. Productos comerciales para sistemas FPV**
 
   [Fuente](http://www.dronesbaratoscaseros.com/) 
   
