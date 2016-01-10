@@ -8,7 +8,7 @@ Table of contents
 * [NRF24l01](#nrf24l01)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
-* [Transmision de video](#transmision-de-video)
+* [Transmision de video](#transmision-de-video-en-tiempo-real)
 
 IoT with Arduino and RPi
 ----------------------------
@@ -167,7 +167,9 @@ Utilizamos el arduino como programador ISP
 
 ![alt tag](static/attiny_44_84_Pinout.png)
 
-### Transmision de video
+### Transmision de video en tiempo real
+
+Fuente: transmisión de video desde drones.
 
 ELEMENTOS
 - Camara o micro-camara
