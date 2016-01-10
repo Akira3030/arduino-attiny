@@ -197,7 +197,7 @@ Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 
 
 **2. Frecuencia**
 
-Frecuencias usadas para FPV (transmisión de video): 900Mhz (la más baja), 1.3Ghz, 2.4Ghz y 5.8Ghz (la más alta)
+Frecuencias usadas para FPV (transmisión de video): 900Mhz (la más baja), 1.3Ghz, 2.4Ghz (microondas) y 5.8Ghz (la más alta, microondas)
 
 Particularidades
 
