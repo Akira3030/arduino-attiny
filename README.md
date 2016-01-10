@@ -212,16 +212,19 @@ SISTEMA REAL
   [Video](https://www.youtube.com/watch?v=kKph_ks6C2M)
 
  - Transmisor (400mW) --> Boscam FPV 5.8G 400mW AV Transmitter Module TS353
- - Transmisor (200mW) --> TS351 (FPV 5,8 GHz 200mw) --> unos 12€
+ - Transmisor (200mW) --> TS351 (FPV 5,8 GHz 200mw) --> 12€
  - Transmisor (600mW) --> Eachine TX600 FPV 5.8GHz 600mW 32CH AV Transmitter Mushroom Antenna --> 32€
- - Receptor --> Eachine RC832 Boscam FPV 5.8GHz 32CH Wireless AV Receiver --> 19€
- - Receptor --> FR632 (FPV 5.8 GHz 32 canales), el tipo de antena es importante viene con unas baratas --> unos 70€-80€
- - Receptor --> RC305 (FPV 5.8 GHz 8 canales 200mW) --> unos 15€
+ - Receptor --> RC832 Boscam FPV 5.8GHz 32CH Wireless AV Receiver --> 19€
+ - Receptor --> FR632 (FPV 5.8 GHz 32 canales)  --> 70€-80€
+ - Receptor --> RC305 (FPV 5.8 GHz 8 canales 200mW) --> 15€
  - Camara --> DAL 700TVL FPV HD 1/4' CMOS (12V) --> 8€
  - Camara --> Eachine 700TVL 2.8mm CMOS (5-12V) --> 12€
  - Camara --> Tarot 12V 600TVL 120° 2.8mm FPV Camera TL300M PAL --> 16€
  - Antenas --> 5.8G Gain Petals Clover Mushrooms Antenna Set For FPV System --> 7€
- - Monitor (5 pulgadas) --> Blue Sky 5 Inch HD Digital Panel Display 800x480 Snowflakes Screen --> 29€
+ 
+
+ - Monitor TFT (5 pulgadas, 800x480) --> Blue Sky 5 Inch HD Digital Panel Display 800x480 Snowflakes Screen --> 29€
+ - Monitor TFT (7 pulgadas, 800 x 480) --> 35€
  - Monitores para FPV --> http://www.banggood.com/search/fpv-monitor.html?p=722409786759201409UR
  - Bateria recargable (2200 ma) --> ZOP Power 11.1V 2200MAH 8C Lipo Battery For Devo JR WFLY Transmitter --> 11€
  - Bateria recargable (1300 ma) --> Ace High Quality 11.1v 1300mah 25c lipo battery --> 20€
