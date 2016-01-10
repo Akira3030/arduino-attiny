@@ -209,7 +209,8 @@ Particularidades
 - Cuanto mas alta antenas mas pequeñas.
 - Cuanto más baja la frecuencia, menor ancho de banda y por lo tanto menor calidad de imagen. 
 - Cuando más alta, más ancho de banda y mayor calidad de imagen.
-- Lo ideal es la frecuencia más baja posible dentro de la gama ya que cuanta menos frecuencia mayor es la longitud de onda y por tanto mejor es la penetrabilidad de una onda en los distintos obstáculos
+- Lo ideal es la frecuencia más baja posible dentro de la gama ya que cuanta menos frecuencia mayor es la longitud de onda y por tanto mejor es la penetrabilidad de una onda en los distintos obstáculos.
+- Cualquier persona que tenga un receptor de la misma frecuencia y canal y si se encuentra dentro del radio de cobertura del transmisor podra ver nuestra señal de video.
 
 Cada frecuencia tiene una serie de canales que los fabricantes han fijado. Por ejemplo, en 5.8Ghz hay transmisores de 32 canales. Esto nos permite correr más gente a la vez en el mismo rango de frecuencia pero en distintos canales sin que se solape la señal de vídeo.
 
