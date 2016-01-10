@@ -224,6 +224,7 @@ Particularidades
 
 **4. Legalidad de las frecuencias (España)**
 
+- La emison de video al exterior no es legal en España.
 - 900 MHz --> la más obvia para FPV pero se asigno para la red 3G de teléfonos móviles -->  no es legal
 - 1.2 GHz --> buena penetración frente a los obstáculos --> no es legal (reservada para otros usos).
 - 1.3 GHz --> esta banda es muy parecida a la anterior --> para transmisión aérea --> no es legal. 
