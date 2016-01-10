@@ -205,9 +205,30 @@ El enlace se controla por una Raspberry Pi
 La camara se controla con un servomotor
 
 SISTEMA REAL
- - Receptor --> FR632 (5.8 GHz 32 canales), el tipo de antena es importante viene con unas baratas --> unos 70€-80€
- - 
 
+  [Fuente](http://www.dronesbaratoscaseros.com/) 
+
+ - Transmisor (400mW) --> Boscam FPV 5.8G 400mW AV Transmitter Module TS353
+ - Transmisor (200mW) --> TS351 (FPV 5,8 GHz 200mw) --> unos 12€
+ - Transmisor (600mW) --> Eachine TX600 FPV 5.8GHz 600mW 32CH AV Transmitter Mushroom Antenna --> 32€
+ - Receptor --> Eachine RC832 Boscam FPV 5.8GHz 32CH Wireless AV Receiver --> 19€
+ - Receptor --> FR632 (FPV 5.8 GHz 32 canales), el tipo de antena es importante viene con unas baratas --> unos 70€-80€
+ - Receptor --> RC305 (FPV 5.8 GHz 8 canales 200mW) --> unos 15€
+ - Camara --> DAL 700TVL FPV HD 1/4' CMOS (12V) --> 8€
+ - Camara --> Eachine 700TVL 2.8mm CMOS (5-12V) --> 12€
+ - Camara --> Tarot 12V 600TVL 120° 2.8mm FPV Camera TL300M PAL --> 16€
+ - Antenas --> 5.8G Gain Petals Clover Mushrooms Antenna Set For FPV System --> 7€
+ - Monitor (5 pulgadas) --> Blue Sky 5 Inch HD Digital Panel Display 800x480 Snowflakes Screen --> 29€
+ - Monitores para FPV --> http://www.banggood.com/search/fpv-monitor.html?p=722409786759201409UR
+ - Bateria recargable (2200 ma) --> ZOP Power 11.1V 2200MAH 8C Lipo Battery For Devo JR WFLY Transmitter --> 11€
+ - Bateria recargable (1300 ma) --> Ace High Quality 11.1v 1300mah 25c lipo battery --> 20€
+ - Grabador de viceo --> 1CH Mini DVR C-DVR Motion Detection Video Radio Recorder --> 28€
+ - Camara + transmisor --> Eachine 700TVL 1/3 Cmos FPV 148 Degree Camera w/32CH Transmission --> 25€
+ - Camara +`transmisor --> Eachine 700TVL 1/3 Cmos FPV 110 Degree Camera w/32CH Transmission --> 20€
+ - Transmisor + receptor --> Boscam FPV 5.8G 400mW AV Receiver RC805 with Transmitter TS353 --> 55€
+ - Cargador de baterias LIPO --> Imax b6-ac cargador del balance de la batería de NiMH 3s lipo B6AC rc --> 32€
+ - Cargador de baterias LIPO --> SKYRC E3 2S 3S LiPo AKKU Battery Balance Charger AC 110V-240V --> 10€
+ - Separadores de nailon --> M3 Nylon Hex Spacers Screw Nut Assortment Kit Accessories Set --> 6€
 
 
 
