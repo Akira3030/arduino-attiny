@@ -208,9 +208,10 @@ La camara se controla con un servomotor
 SISTEMA REAL
 
   [Fuente](http://www.dronesbaratoscaseros.com/) 
+  [Video](https://www.youtube.com/watch?v=kKph_ks6C2M)
   
-  Receptor de radiocontrol
-  Transmisor de video
+ - Receptor de radiocontrol
+ - Transmisor de video
 
  - Transmisor (400mW) --> Boscam FPV 5.8G 400mW AV Transmitter Module TS353
  - Transmisor (200mW) --> TS351 (FPV 5,8 GHz 200mw) --> unos 12€
