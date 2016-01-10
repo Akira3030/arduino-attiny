@@ -188,6 +188,7 @@ CAMARA CCD, CMOS, FPV, CMOS HD, etc
 - VTX --> Video transmiter
 - VRX --> Video receiver
 - Camara FPV --> frecuencias: 900 Mhz, 1.2 ghz, 1.3 ghz, 2.4 ghz y 5.8 ghz
+- No puede haber latencia (por eso es tiempo real)
 
 CODECS y COMPRESIÓN
 - Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
@@ -202,6 +203,10 @@ Señal de información de control
 - Tarjeta de radiofrecuencia halfduplex 100kbps
 El enlace se controla por una Raspberry Pi
 La camara se controla con un servomotor
+
+SISTEMA REAL
+ - Receptor --> FR632 (5.8 GHz 32 canales), el tipo de antena es importante viene con unas baratas --> unos 70€-80€
+ - 
 
 
 
