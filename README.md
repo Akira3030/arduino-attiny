@@ -172,7 +172,7 @@ Utilizamos el arduino como programador ISP
 Fuente: transmisión de video desde drones.
 
 ELEMENTOS
-- Camara o micro-camara --> importante el angulo de visión, funcionan a 12v o 5v(las micro), proteger la electrónica
+- Camara o micro-camara --> resolución, angulo de visión, a 12v o 5v(las micro), proteger la electrónica
 - Transmisor de video
 - Receptor de video
 - Receptor de radiocontrol
@@ -208,10 +208,8 @@ La camara se controla con un servomotor
 SISTEMA REAL
 
   [Fuente](http://www.dronesbaratoscaseros.com/) 
-  [Video](https://www.youtube.com/watch?v=kKph_ks6C2M)
   
- - Receptor de radiocontrol
- - Transmisor de video
+  [Video](https://www.youtube.com/watch?v=kKph_ks6C2M)
 
  - Transmisor (400mW) --> Boscam FPV 5.8G 400mW AV Transmitter Module TS353
  - Transmisor (200mW) --> TS351 (FPV 5,8 GHz 200mw) --> unos 12€
