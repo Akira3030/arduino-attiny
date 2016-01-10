@@ -218,12 +218,7 @@ La camara se controla con un servomotor
 
 FRECUENCIA Y POTENCIA
 
-Frecuencias usadas para FPV (transmisión de video):
-
-- 900Mhz (más baja)  --> ilegal en españa
-- 1.3Ghz --> necesaria licencia de radioaficionado
-- 2.4Ghz
-- 5.8Ghz (más alta)
+Frecuencias usadas para FPV (transmisión de video): 900Mhz (la más baja), 1.3Ghz, 2.4Ghz y 5.8Ghz (la más alta)
 
 Particularidades
 
@@ -241,7 +236,7 @@ Cada frecuencia tiene una serie de canales que los fabricantes han fijado. Por e
 
 Es tipico usar la emisora de radio a 2.4 GHz y la transmisión de video a 5.8 GHz
 
-LEGALIDAD
+LEGALIDAD FRECUENCIAS
 
 - 900 MHz --> la más obvia para FPV pero se asigno para la red 3G de teléfonos móviles -->  no es legal
 - 1.2 GHz --> buena penetración frente a los obstáculos --> no es legal (reservada para otros usos).
