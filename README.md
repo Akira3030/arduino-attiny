@@ -2,10 +2,6 @@
 
 miguel.granadino@gmail.com
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
-- [x] list syntax is required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
 
 Table of contents
 =================
@@ -18,8 +14,8 @@ Table of contents
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
-IoT with Arduino and RPi
-----------------------------
+:black_large_square: IoT with Arduino and RPi
+-------------------------------------------------
 
 ### Raspberry (gateway) and Arduino (node sensor)
 
