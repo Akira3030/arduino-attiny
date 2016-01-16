@@ -1,5 +1,7 @@
 # ARDUINO - ATTINY - WIRELESS - IOT
 
+miguel.granadino@gmail.com
+
 Table of contents
 =================
 
