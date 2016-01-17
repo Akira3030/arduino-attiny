@@ -3,8 +3,7 @@
 miguel.granadino@gmail.com
 
 
-Table of contents
-=================
+## Table of contents
 
 * [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
 * [Wifi module ESP8266](#wifi-module-esp8266)
@@ -14,10 +13,10 @@ Table of contents
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
-:black_large_square: IoT with Arduino and RPi
--------------------------------------------------
+## IoT with Arduino and RPi
 
-### Raspberry (gateway) and Arduino (node sensor)
+
+Raspberry (gateway) and Arduino (node sensor)
 
 Ejemplo de arquitectua hardware:
 
@@ -29,8 +28,8 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
-Wifi module ESP8266
---------------------
+## Wifi module ESP8266
+
 
 Sirven para añadir WIFI al microcontrolador
 
@@ -73,15 +72,15 @@ Estos modulos son TRANCEPTORES, es decir mediante programacion los podemos poner
 | CS | 10 |
 | CE | 9 |
 
-### Soluciones a posibles problemas
+**Soluciones a posibles problemas**
 
 - Es muy conveniente conectar un capacitor de 10NanoFaradios entre VCC y GND, para eliminar el ruido
 Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
 
 
-RF 433 MHz modulos transmisor y receptor
--------------------------------------------
+## RF 433 MHz modulos transmisor y receptor
+
 Comunicación unidireccional entre dos arduinos pro mini (funduino)
 
 ![alt tag](static/433_1.jpg)
@@ -91,14 +90,13 @@ Problema: alcance muy corto 1.5m - 2m, posibilidades de perdida de datos alta.
 A favor: bajo coste --> 1.5€ ambos módulos
 
 
-Funduino pro mini ATMEGA328P
-----------------------------
+## Funduino pro mini ATMEGA328P
+
 ![alt tag](static/funduino-pro-mini-pinout.png)
 Alimentación: 3.3V o 5V
 
 
-ATtiny85
---------------
+## ATtiny85
 
 ![alt tag](static/attiny85pinout1.png)
 
