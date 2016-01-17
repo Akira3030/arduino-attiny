@@ -180,7 +180,7 @@ Utilizamos el arduino como programador ISP
 
 ![alt tag](static/attiny_44_84_Pinout.png)
 
-### Transmision de video en tiempo real
+## Transmision de video en tiempo real
 
 Fuente: transmisión de video desde drones.
 
