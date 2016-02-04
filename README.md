@@ -78,9 +78,11 @@ Estos modulos son TRANCEPTORES, es decir mediante programacion los podemos poner
 - Es muy conveniente conectar un capacitor de 10NanoFaradios entre VCC y GND, para eliminar el ruido
 Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
-- 
+
+
 
 ## NodeMCU
+
 ![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
 ![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
 ![alt tag](static/NodeMCU__v1.0_pinout.jpg)
