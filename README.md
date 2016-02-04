@@ -92,7 +92,7 @@ http://nodemcu.com/index_en.html
 - Alimentación: 3.3V
 - Protocolos soportados: 802.11 b/g/n
 - Interfaces: I2C/SPI, UART
-- Dos versiones: 0.9, 1.0
+- Dos versiones: v0.9 y v1.0
 - ESP8266-12: 11 digital I/O pins and 1 Analogue input.
 - Viene con un firmware (programa) preinstalado que puedes actualizar(Flashing)
 - 
@@ -100,7 +100,13 @@ http://nodemcu.com/index_en.html
 
 
 ![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
+
+Versión 0.9
+
 ![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
+
+Versión 1.0
+
 ![alt tag](static/NodeMCU__v1.0_pinout.jpg)
 
 
