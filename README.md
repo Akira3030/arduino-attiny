@@ -5,7 +5,7 @@ miguel.granadino@gmail.com
 
 ## Table of contents
 
-* [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
+* [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
 * [IoT Almacenar datos](#iot-almacenar-datos)
 * [Wifi module ESP8266](#wifi-module-esp8266)
 * [NodeMCU](#nodemcu)
@@ -15,7 +15,7 @@ miguel.granadino@gmail.com
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
-## IoT with Arduino and RPi
+## IoT con Arduino y RPi
 
 
 Raspberry (gateway) and Arduino (node sensor)
