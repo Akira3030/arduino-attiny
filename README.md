@@ -6,6 +6,7 @@ miguel.granadino@gmail.com
 ## Table of contents
 
 * [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
+* [IoT Almacenar datos](#iot-almacenar-datos)
 * [Wifi module ESP8266](#wifi-module-esp8266)
 * [NodeMCU](#nodemcu)
 * [NRF24l01](#nrf24l01)
@@ -29,6 +30,12 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
+## IoT Almacenar datos
+
+- ThingSpeak --> cuenta en ThingSpeak y creamos un canal --> api.thingspeak.com
+
+
+
 ## Wifi module ESP8266
 
 
@@ -49,15 +56,18 @@ Sirven para añadir WIFI al microcontrolador
 
 http://nodemcu.com/index_en.html
 
-- NodeMCU es más que un ESP8266-12(12 GPIOS) con conversor USB-TTL y conversor de 5v a 3.3v en una misma placa.
-- Es como Arduino. Plataforma OpenHardware basada en una placa con un microcontrolador (32 bit MCU).
+- NodeMCU no es más que un ESP8266-12(12 GPIOS) con conversor USB-TTL y conversor de 5v a 3.3v en una misma placa.
+- Es como Arduino. Plataforma OpenHardware basada en una placa con un microcontrolador de 32 bits. Este MCU es el que ejecuta el firmware.
+
+
+
 - Chip principal: ESP8266 (ESP 12)
 - Chip serie de USB a TTL integrado en la placa
 - Antena: integrada en la placa
 - Frecuencia: 2.4GH
 - Alimentación: 3.3V
 - Protocolos soportados: 802.11 b/g/n, wifi integrado. 
-- Soporta WPA y WPA2 (WiFi Protected Access)
+- Soporta WPA y WPA2 (WiFi Protected Access), encriptación.
 - Interfaces: I2C/SPI, UART
 - Dos versiones: v0.9(VIEJO) y v1.0(nuevo)
 - ESP8266-12: 11 digital I/O pins and 1 Analogue input.
@@ -67,6 +77,12 @@ http://nodemcu.com/index_en.html
 - Se puede usar con arduino o como sistema independiente, programable independientemente
 - Funciona a 80MHz
 - Llega a consumir 200mA y picos de hasta 400mA (mucho), no alimentar con Arduino
+- Hay varias versiones del firmware, se usa la herramienta
+- Cuanto funcina intensamente el MCU se calienta (hay gente que le pone un disipador)
+
+
+- Seleccionaremos el rooter al que nos conectaremos
+- Este rooter nos dara una ip
 
 
 
