@@ -7,8 +7,8 @@ miguel.granadino@gmail.com
 
 * [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
 * [Wifi module ESP8266](#wifi-module-esp8266)
-* [NRF24l01](#nrf24l01)
 * [NodeMCU](#nodemcu)
+* [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
@@ -44,43 +44,6 @@ Sirven para añadir WIFI al microcontrolador
 
 
 [Comparando Arduino y el ESP8266](http://polaridad.es/compara-arduino-esp8266/)
-
-
-NRF24l01
------------
-
-[Tutorial](http://www.prometec.net/nrf2401/)
-
-
-Módulos TRANCEPTORES --> mediante programacion los podemos poner como emisores o como receptores o configurarlos para que hagan ambas cosas.
-
-- Chip principal: NRF24
-- Frecuencia: 2.4Ghz
-- Velocidad: 250kb, 1 Mb o 2Mb por segundo (confiurable)
-- Consumo: 115mA y muy bajo consumo en Stand By (Cuando no se usan).
-- Alcance: 1000m en abierto
-- Interfaz: SPI.
-- Hay versión con amplificador de potencia y antena SMA
-
-[Arduino driver for nRF24L01](https://github.com/maniacbug/RF24)
-
-![alt tag](static/24L01Pinout-800-500x229.jpg)
-
-| PIN   |  Arduino uno      |
-|----------|:-------------:|
-| MOSI | 11 |
-| MISO | 12 |
-| SCK | 13 |
-| CS | 10 |
-| CE | 9 |
-
-**Soluciones a posibles problemas**
-
-- Es muy conveniente conectar un capacitor de 10NanoFaradios entre VCC y GND, para eliminar el ruido
-Alimentacion a 3.3V o 5V.
-- La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
-
-
 
 ## NodeMCU
 
@@ -120,12 +83,39 @@ Versión 1.0
 Funcionamiento --> comandos AT
 
 
+## NRF24l01
 
 
+[Tutorial](http://www.prometec.net/nrf2401/)
 
 
+Módulos TRANCEPTORES --> mediante programacion los podemos poner como emisores o como receptores o configurarlos para que hagan ambas cosas.
 
+- Chip principal: NRF24
+- Frecuencia: 2.4Ghz
+- Velocidad: 250kb, 1 Mb o 2Mb por segundo (confiurable)
+- Consumo: 115mA y muy bajo consumo en Stand By (Cuando no se usan).
+- Alcance: 1000m en abierto
+- Interfaz: SPI.
+- Hay versión con amplificador de potencia y antena SMA
 
+[Arduino driver for nRF24L01](https://github.com/maniacbug/RF24)
+
+![alt tag](static/24L01Pinout-800-500x229.jpg)
+
+| PIN   |  Arduino uno      |
+|----------|:-------------:|
+| MOSI | 11 |
+| MISO | 12 |
+| SCK | 13 |
+| CS | 10 |
+| CE | 9 |
+
+**Soluciones a posibles problemas**
+
+- Es muy conveniente conectar un capacitor de 10NanoFaradios entre VCC y GND, para eliminar el ruido
+Alimentacion a 3.3V o 5V.
+- La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
 
 ## RF 433 MHz modulos transmisor y receptor
 
