@@ -51,15 +51,16 @@ NRF24l01
 
 [Tutorial](http://www.prometec.net/nrf2401/)
 
-Dispositivos de radio basados en el chip de Nordic semiconductor  NRF24.
 
-Estos modulos son TRANCEPTORES, es decir mediante programacion los podemos poner como emisores o como receptores o configurarlos para que hagan ambas cosas. Puede llegar a transmitir datos a 2Mbps , en distancias menores a 40 metros al aire libre y a 1Mbps a 8 metros de distancia.
+Módulos TRANCEPTORES --> mediante programacion los podemos poner como emisores o como receptores o configurarlos para que hagan ambas cosas.
 
-- Operan en la banda de 2.4Ghz, que es de libre uso a nivel mundial (no tenemos garantía de que no haya alguien más emitiendo en esta banda en las cercanías, lo que puede producir interferencias)
-- Velocidad configurable de 250kb, 1 Mb o 2Mb por segundo.
-- Muy bajo consumo en Stand By (Cuando no se usan
-- Podemos encontrar modelos con antenas más eficaces que aumentan el alcance hasta casi un km.
-- Estos módulos usan el bus SPI.
+- Chip principal: NRF24
+- Frecuencia: 2.4Ghz
+- Velocidad: 250kb, 1 Mb o 2Mb por segundo (confiurable)
+- Consumo: 115mA y muy bajo consumo en Stand By (Cuando no se usan).
+- Alcance: 1000m en abierto
+- Interfaz: SPI.
+- Hay versión con amplificador de potencia y antena SMA
 
 [Arduino driver for nRF24L01](https://github.com/maniacbug/RF24)
 
