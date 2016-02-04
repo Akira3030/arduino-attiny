@@ -8,7 +8,7 @@ miguel.granadino@gmail.com
 * [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
 * [IoT Almacenar datos](#iot-almacenar-datos)
 * [Wifi module ESP8266](#wifi-module-esp8266)
-* [NodeMCU](#nodemcu)
+* [Wifi NodeMCU ESP8266](#nodemcu)
 * [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
