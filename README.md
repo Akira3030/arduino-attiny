@@ -1,4 +1,4 @@
-# ARDUINO - ATTINY - WIRELESS - IOT
+# ARDUINO - ATTINY - WIRELESS - IOT - RF
 
 miguel.granadino@gmail.com
 
