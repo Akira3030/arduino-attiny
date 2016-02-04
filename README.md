@@ -83,6 +83,22 @@ Alimentacion a 3.3V o 5V.
 
 ## NodeMCU
 
+http://nodemcu.com/index_en.html
+
+- Chip principal: ESP8266 (ESP 12)
+- Chip serie de USB a TTL integrado en la placa
+- Antena: integrada en la placa
+- Frecuencia: 2.4GH
+- Alimentación: 3.3V
+- Protocolos soportados: 802.11 b/g/n
+- Interfaces: I2C/SPI, UART
+- Dos versiones: 0.9, 1.0
+- ESP8266-12: 11 digital I/O pins and 1 Analogue input.
+- Viene con un firmware (programa) preinstalado que puedes actualizar(Flashing)
+- 
+
+
+
 ![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
 ![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
 ![alt tag](static/NodeMCU__v1.0_pinout.jpg)
