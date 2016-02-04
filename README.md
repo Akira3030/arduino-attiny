@@ -1,19 +1,22 @@
 # ARDUINO - ATTINY - WIRELESS - IOT
 
-Table of contents
-=================
+miguel.granadino@gmail.com
+
+
+## Table of contents
 
 * [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
 * [Wifi module ESP8266](#wifi-module-esp8266)
 * [NRF24l01](#nrf24l01)
+* [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
-IoT with Arduino and RPi
-----------------------------
+## IoT with Arduino and RPi
 
-### Raspberry (gateway) and Arduino (node sensor)
+
+Raspberry (gateway) and Arduino (node sensor)
 
 Ejemplo de arquitectua hardware:
 
@@ -25,8 +28,8 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
-Wifi module ESP8266
---------------------
+## Wifi module ESP8266
+
 
 Sirven para añadir WIFI al microcontrolador
 
@@ -69,21 +72,31 @@ Estos modulos son TRANCEPTORES, es decir mediante programacion los podemos poner
 | CS | 10 |
 | CE | 9 |
 
-### Soluciones a posibles problemas
+**Soluciones a posibles problemas**
 
 - Es muy conveniente conectar un capacitor de 10NanoFaradios entre VCC y GND, para eliminar el ruido
 Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
 
 
-Funduino pro mini ATMEGA328P
-----------------------------
+## RF 433 MHz modulos transmisor y receptor
+
+Comunicación unidireccional entre dos arduinos pro mini (funduino)
+
+![alt tag](static/433_1.jpg)
+
+Problema: alcance muy corto 1.5m - 2m, posibilidades de perdida de datos alta.
+
+A favor: bajo coste --> 1.5€ ambos módulos
+
+
+## Funduino pro mini ATMEGA328P
+
 ![alt tag](static/funduino-pro-mini-pinout.png)
 Alimentación: 3.3V o 5V
 
 
-ATtiny85
---------------
+## ATtiny85
 
 ![alt tag](static/attiny85pinout1.png)
 
@@ -167,45 +180,67 @@ Utilizamos el arduino como programador ISP
 
 ![alt tag](static/attiny_44_84_Pinout.png)
 
-### Transmision de video en tiempo real
+## Transmision de video en tiempo real
 
 Fuente: transmisión de video desde drones.
 
-ELEMENTOS
+**1. Elementos del sistema**
 - Camara o micro-camara --> resolución, angulo de visión, a 12v o 5v(las micro), proteger la electrónica
 - Transmisor de video
 - Receptor de video
 - Receptor de radiocontrol
 - Monitor, LCD, TFT ...
 
-CAMARA CCD, CMOS, FPV, CMOS HD, etc
-- En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen (CCD  ó CMOS) que convierte la luz en pulsos eléctricos para más tarde  procesarlos mediante circuitos electrónicos y poder crear así la señal de video.
-- Color y "blanco y negro"
-- Medio de transmisión: inalambrio por radiofrecuencia
-- Señal digital
-- Número de pixeles: 128x128 
-- Captar video, imagenes o sonido
-- FPV --> First Person View
-- VTX --> Video transmiter
-- VRX --> Video receiver
-- Camara FPV --> frecuencias: 900 Mhz, 1.2 ghz, 1.3 ghz, 2.4 ghz y 5.8 ghz
-- No puede haber latencia (por eso es tiempo real)
+En una camara CCD, la lente recoge la luz y la enfoca hacia un sensor de imagen (CCD  ó CMOS) que convierte la luz en pulsos eléctricos para más tarde  procesarlos mediante circuitos electrónicos y poder crear así la señal de video.
 
-CODECS y COMPRESIÓN
-- Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
+Los códecs MPEG (Moving Picture Experts Group ), el MPEG-2, sucesor del MPEG-1 que permite transmitir a velocidades entre  4 y 9 kbps y es capaz de soportar televisión en alta definición (HDTV).
 
-TRANSMISIÓN DE LA SEÑAL
-- Partes de la modulación
-Señal de imagen
-Señal de sincronización de video
-Señal de voz
-Señal de información de control
 
-- Tarjeta de radiofrecuencia halfduplex 100kbps
-El enlace se controla por una Raspberry Pi
-La camara se controla con un servomotor
+**2. Frecuencia**
 
-SISTEMA REAL
+Frecuencias usadas para FPV (transmisión de video): 900Mhz (la más baja), 1.3Ghz, 2.4Ghz (microondas) y 5.8Ghz (la más alta, microondas)
+
+Particularidades
+
+- Cuanto mas baja la frecuencia mayor alcance. 
+- Cuanto mas alta menor alcance. (con la misma potencia de emisión)
+- Cuanto mas baja la frecuencia mayor penetración en obstáculos. 
+- Cuanto mas alta mas problemas tiene para penetrar los obstáculos.
+- Cuanto mas baja la frecuencia antenas mas grandes.
+- Cuanto mas alta antenas mas pequeñas.
+- Cuanto más baja la frecuencia, menor ancho de banda y por lo tanto menor calidad de imagen. 
+- Cuando más alta, más ancho de banda y mayor calidad de imagen.
+- Lo ideal es la frecuencia más baja posible dentro de la gama ya que cuanta menos frecuencia mayor es la longitud de onda y por tanto mejor es la penetrabilidad de una onda en los distintos obstáculos.
+- Cualquier persona que tenga un receptor de la misma frecuencia y canal y si se encuentra dentro del radio de cobertura del transmisor podra ver nuestra señal de video.
+- Cada frecuencia tiene una serie de canales que los fabricantes han fijado. Por ejemplo, en 5.8Ghz hay transmisores de 32 canales. Esto nos permite correr más gente a la vez en el mismo rango de frecuencia pero en distintos canales sin que se solape la señal de vídeo.
+- Es tipico usar la emisora de radio a 2.4 GHz y la transmisión de video a 5.8 GHz.
+- Un ejemplo de canales: para 2.4 GHz dispone, por ejemplo, de 4 canales diferentes. Estos son; Canal 1: 2.412 Mhz. Canal 2: 2452 MHz. Canal 3: 2.472 MHz. Canal 4: 2.432 MHz
+
+**3. Potencia de la señal(mW)**
+
+- A mayor potencia de emisión más lejos llegaremos.
+- A más potencia de emisión más grandes son los transmisores, más consumen y más se calientan.
+- Cuidado con la legalidad --> no se si debe ser de 25 mw máximo.
+- Mientras más baja sea la frecuencia menos mw necesitas para conseguir la misma distancia.
+
+**4. Legalidad de las frecuencias (España)**
+
+- La emison de video al exterior no es legal en España.
+- 900 MHz --> la más obvia para FPV pero se asigno para la red 3G de teléfonos móviles -->  no es legal
+- 1.2 GHz --> buena penetración frente a los obstáculos --> no es legal (reservada para otros usos).
+- 1.3 GHz --> esta banda es muy parecida a la anterior --> para transmisión aérea --> no es legal. 
+- 2.4 GHz --> muy apropiada para señales de radio. Los equipos de video con transmisión a 2.4 GHz son muy populares entre las frecuencias FPV y es probablemente la elección más barata. 
+Sin embargo la habilidad de penetración no es tan buena si la comparamos con las bandas de frecuencia anteriores. También esta banda es la más usada para muchos otros equipos como WiFi, Bluetooth, transmisores y receptores RC y es probable que haya demasiadas interferencias. Por lo tanto, si decides usar esta banda para FPV necesitarás usar otra distinta para tu transmisor RC y para la telemetría (si la estás usando).
+- 5.8 GHz --> las antenas circulares polarizadas pueden ser muy pequeñas gracias a la elevada frecuencia. Buena banda para el FPV. Aunque tiene una potencia de radio bastante decente, debido a su alta frecuencia no tiene un buen poder de penetración. Por lo tanto estos vuelos suelen están limitados a donde alcance la vista principalmente. normalmente usado entre 500m y 1km.
+
+**5. Legalidad de la potencia (España)**
+
+- 2.4 GHz --> 10 mW.
+- 5.8 GHz --> 25 mW.  
+
+
+
+**6. Productos comerciales para sistemas FPV**
 
   [Fuente](http://www.dronesbaratoscaseros.com/) 
   
