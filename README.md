@@ -8,7 +8,7 @@ miguel.granadino@gmail.com
 * [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
 * [IoT Almacenar datos](#iot-almacenar-datos)
 * [Wifi module ESP8266](#wifi-module-esp8266)
-* [Wifi NodeMCU ESP8266](#nodemcu)
+* [Wifi NodeMCU ESP8266 ESP12](#nodemcu)
 * [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
@@ -64,21 +64,25 @@ http://nodemcu.com/index_en.html
 - Chip principal: ESP8266 (ESP 12)
 - Chip serie de USB a TTL integrado en la placa
 - Antena: integrada en la placa
-- Frecuencia: 2.4GH
+- Frecuencia: 2.4GH, TCP/IP
 - Alimentación: 3.3V
 - Protocolos soportados: 802.11 b/g/n, wifi integrado. 
+- Wifi Direct (P2P) Soft-AP
 - Soporta WPA y WPA2 (WiFi Protected Access), encriptación.
 - Interfaces: I2C/SPI, UART
 - Dos versiones: v0.9(VIEJO) y v1.0(nuevo)
 - ESP8266-12: 11 digital I/O pins and 1 Analogue input.
+- 30 metros de alcance
 - Viene con un firmware (programa) preinstalado que puedes actualizar(Flashing)
 - Dos pulsadores: reset y flash
 - Puede hacer de servidor
 - Se puede usar con arduino o como sistema independiente, programable independientemente
-- Funciona a 80MHz
+- Microcontrolador 32bits a 80MHz
 - Llega a consumir 200mA y picos de hasta 400mA (mucho), no alimentar con Arduino
 - Hay varias versiones del firmware, se usa la herramienta
 - Cuanto funcina intensamente el MCU se calienta (hay gente que le pone un disipador)
+- Programable en Lua usando el IDE Esplorer
+- Programable con el IDE de Arduino instalando previamente el soporte a las placas ESP8266
 
 
 - Seleccionaremos el rooter al que nos conectaremos
