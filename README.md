@@ -81,7 +81,7 @@ http://nodemcu.com/index_en.html
 - Llega a consumir 200mA y picos de hasta 400mA (mucho), no alimentar con Arduino
 - Hay varias versiones del firmware, se usa la herramienta
 - Cuanto funcina intensamente el MCU se calienta (hay gente que le pone un disipador)
-- Programable en Lua usando el IDE Esplorer
+- Programable en Lua usando el IDE Esplorer o el programa luatool
 - Programable con el IDE de Arduino instalando previamente el soporte a las placas ESP8266
 
 
