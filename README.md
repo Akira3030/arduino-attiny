@@ -7,6 +7,7 @@ miguel.granadino@gmail.com
 
 * [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
 * [IoT Almacenar datos](#iot-almacenar-datos)
+* [IoT Software](#iot-software)
 * [Wifi module ESP8266](#wifi-module-esp8266)
 * [Wifi NodeMCU ESP8266 ESP12](#nodemcu)
 * [NRF24l01](#nrf24l01)
@@ -32,7 +33,43 @@ Ejemplo de arquitectua hardware:
 
 ## IoT Almacenar datos
 
-- ThingSpeak --> cuenta en ThingSpeak y creamos un canal --> api.thingspeak.com
+ThingSpeak
+
+- Recolección de datos en tiempo real (data collection and storage)
+- Analisis y visualización de datos
+- ...
+
+
+Uso:
+
+- Hacerse una cuenta (gratis)
+- Crear un canal (channel)
+- Ir a API Keys y obtener tu llave (key)
+- Pruebalo --> http://api.thingspeak.com/channels/[CHANNEL_ID]/feed.json?key=[THINGSPEAK_KEY]
+
+
+## IoT Software
+
+MQTT --> MQ Telemetry Transport --> es un protocolo de comunicaciones ligero y rápido diseñado para Internet of Things. Su propósito es ser un protocolo de mensajes de publicación/subscripción basado en un broker ligero, diseñado para ser abierto, simple, ligero y fácil de implementar”. 
+
+La arquitectura de MQTT sigue una topología de estrella, con un nodo central que hace de servidor o “broker” con una capacidad de hasta 10000 clientes. El broker es el encargado de gestionar la red y de transmitir los mensajes, para mantener activo el canal, los clientes mandan periódicamente un paquete (PINGREQ) y esperan la respuesta del broker (PINGRESP). 
+
+Es un protocolo basado en el broker: Los clientes se conectan a un broker que media la comunicación entre ellos. Cuando otro cliente publica un mensaje sobre ese tópico, el broker le envía el mensaje a los clientes que se suscriben.
+
+La comunicación se basa en unos “topics” (temas), que el cliente que publica el mensaje crea y los nodos que deseen recibirlo deben subscribirse a él. La comunicación puede ser de uno a uno, o de uno a muchos.
+
+Arduino y MQTT --> 
+
+Mosquitto -->
+
+mosquitto -v
+
+
+
+
+
+
+Mosquitto
 
 
 
