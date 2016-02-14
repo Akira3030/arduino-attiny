@@ -1,19 +1,22 @@
-# ARDUINO - ATTINY - WIRELESS - IOT
+# ARDUINO - ATTINY - WIRELESS - IOT - RF
 
 miguel.granadino@gmail.com
 
 
 ## Table of contents
 
-* [IoT with Arduino and RPi](#iot-with-arduino-and-rpi)
+* [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
+* [IoT Almacenar datos](#iot-almacenar-datos)
+* [IoT Software](#iot-software)
 * [Wifi module ESP8266](#wifi-module-esp8266)
+* [Wifi NodeMCU ESP8266 ESP12](#nodemcu)
 * [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
-## IoT with Arduino and RPi
+## IoT con Arduino y RPi
 
 
 Raspberry (gateway) and Arduino (node sensor)
@@ -26,6 +29,48 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 1](http://thenewstack.io/tutorial-prototyping-a-sensor-node-and-iot-gateway-with-arduino-and-raspberry-pi-part-1/)
 
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
+
+
+## IoT Almacenar datos
+
+ThingSpeak
+
+- Recolección de datos en tiempo real (data collection and storage)
+- Analisis y visualización de datos
+- ...
+
+
+Uso:
+
+- Hacerse una cuenta (gratis)
+- Crear un canal (channel)
+- Ir a API Keys y obtener tu llave (key)
+- Pruebalo --> http://api.thingspeak.com/channels/[CHANNEL_ID]/feed.json?key=[THINGSPEAK_KEY]
+
+
+## IoT Software
+
+MQTT --> MQ Telemetry Transport --> es un protocolo de comunicaciones ligero y rápido diseñado para Internet of Things. Su propósito es ser un protocolo de mensajes de publicación/subscripción basado en un broker ligero, diseñado para ser abierto, simple, ligero y fácil de implementar”. 
+
+La arquitectura de MQTT sigue una topología de estrella, con un nodo central que hace de servidor o “broker” con una capacidad de hasta 10000 clientes. El broker es el encargado de gestionar la red y de transmitir los mensajes, para mantener activo el canal, los clientes mandan periódicamente un paquete (PINGREQ) y esperan la respuesta del broker (PINGRESP). 
+
+Es un protocolo basado en el broker: Los clientes se conectan a un broker que media la comunicación entre ellos. Cuando otro cliente publica un mensaje sobre ese tópico, el broker le envía el mensaje a los clientes que se suscriben.
+
+La comunicación se basa en unos “topics” (temas), que el cliente que publica el mensaje crea y los nodos que deseen recibirlo deben subscribirse a él. La comunicación puede ser de uno a uno, o de uno a muchos.
+
+Arduino y MQTT --> 
+
+Mosquitto -->
+
+mosquitto -v
+
+
+
+
+
+
+Mosquitto
+
 
 
 ## Wifi module ESP8266
@@ -44,21 +89,72 @@ Sirven para añadir WIFI al microcontrolador
 
 [Comparando Arduino y el ESP8266](http://polaridad.es/compara-arduino-esp8266/)
 
+## NodeMCU
 
-NRF24l01
------------
+http://nodemcu.com/index_en.html
+
+- NodeMCU no es más que un ESP8266-12(12 GPIOS) con conversor USB-TTL y conversor de 5v a 3.3v en una misma placa.
+- Es como Arduino. Plataforma OpenHardware basada en una placa con un microcontrolador de 32 bits. Este MCU es el que ejecuta el firmware.
+
+
+
+- Chip principal: ESP8266 (ESP 12)
+- Chip serie de USB a TTL integrado en la placa
+- Antena: integrada en la placa
+- Frecuencia: 2.4GH, TCP/IP
+- Alimentación: 3.3V
+- Protocolos soportados: 802.11 b/g/n, wifi integrado. 
+- Wifi Direct (P2P) Soft-AP
+- Soporta WPA y WPA2 (WiFi Protected Access), encriptación.
+- Interfaces: I2C/SPI, UART
+- Dos versiones: v0.9(VIEJO) y v1.0(nuevo)
+- ESP8266-12: 11 digital I/O pins and 1 Analogue input.
+- 30 metros de alcance
+- Viene con un firmware (programa) preinstalado que puedes actualizar(Flashing)
+- Dos pulsadores: reset y flash
+- Puede hacer de servidor
+- Se puede usar con arduino o como sistema independiente, programable independientemente
+- Microcontrolador 32bits a 80MHz
+- Llega a consumir 200mA y picos de hasta 400mA (mucho), no alimentar con Arduino
+- Hay varias versiones del firmware, se usa la herramienta
+- Cuanto funcina intensamente el MCU se calienta (hay gente que le pone un disipador)
+- Programable en Lua usando el IDE Esplorer o el programa luatool
+- Programable con el IDE de Arduino instalando previamente el soporte a las placas ESP8266
+
+
+- Seleccionaremos el rooter al que nos conectaremos
+- Este rooter nos dara una ip
+
+
+
+![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
+
+Versión 0.9
+
+![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
+
+Versión 1.0
+
+![alt tag](static/NodeMCU__v1.0_pinout.jpg)
+
+Funcionamiento --> comandos AT
+
+
+## NRF24l01
+
 
 [Tutorial](http://www.prometec.net/nrf2401/)
 
-Dispositivos de radio basados en el chip de Nordic semiconductor  NRF24.
 
-Estos modulos son TRANCEPTORES, es decir mediante programacion los podemos poner como emisores o como receptores o configurarlos para que hagan ambas cosas. Puede llegar a transmitir datos a 2Mbps , en distancias menores a 40 metros al aire libre y a 1Mbps a 8 metros de distancia.
+Módulos TRANCEPTORES --> mediante programacion los podemos poner como emisores o como receptores o configurarlos para que hagan ambas cosas.
 
-- Operan en la banda de 2.4Ghz, que es de libre uso a nivel mundial (no tenemos garantía de que no haya alguien más emitiendo en esta banda en las cercanías, lo que puede producir interferencias)
-- Velocidad configurable de 250kb, 1 Mb o 2Mb por segundo.
-- Muy bajo consumo en Stand By (Cuando no se usan
-- Podemos encontrar modelos con antenas más eficaces que aumentan el alcance hasta casi un km.
-- Estos módulos usan el bus SPI.
+- Chip principal: NRF24
+- Frecuencia: 2.4Ghz
+- Velocidad: 250kb, 1 Mb o 2Mb por segundo (confiurable)
+- Consumo: 115mA y muy bajo consumo en Stand By (Cuando no se usan).
+- Alcance: 1000m en abierto
+- Interfaz: SPI.
+- Hay versión con amplificador de potencia y antena SMA
 
 [Arduino driver for nRF24L01](https://github.com/maniacbug/RF24)
 
@@ -77,7 +173,6 @@ Estos modulos son TRANCEPTORES, es decir mediante programacion los podemos poner
 - Es muy conveniente conectar un capacitor de 10NanoFaradios entre VCC y GND, para eliminar el ruido
 Alimentacion a 3.3V o 5V.
 - La manera más sencilla de evitar problemas ha sido asegurarme de que el emisor tiene una alimentación correcta y abundante, mediante un alimentador externo (al arduino).
-
 
 ## RF 433 MHz modulos transmisor y receptor
 
@@ -99,60 +194,6 @@ Alimentación: 3.3V o 5V
 ## ATtiny85
 
 ![alt tag](static/attiny85pinout1.png)
-
-### Programar el ATtiny
-
-Los microcontroladores AVR permiten la programación "in circuit". (ISP). No es necesario extraer el microcontrolador
-de la placa de circuito impreso para reprogramarlo.
-
-
-- binutils-avr --> herramientas como el ensamblador, enlazador, etc.
-- gcc-avr --> compilador C GNU (compatible con ANSI C)
-- avr-libc --> librería AVR C
-- gdb-avr --> debugger
-- avr-dude --> programador
-- AVRStudio --> descarga gratis desde www.atmel.com (solo Windows)
-
-```bash
-$ apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
-
-# Compilar 
-$ avr-gcc -g -Os -mmcu=attiny88 -c hola_mundo_attiny85.c
-$ avr-gcc -g -mmcu=attiny88 -o hola_mundo_attiny85.out hola_mundo_atttiny85.o
-
-# Crear el hex. 
-$ avr-objcopy -j .text -O ihex hola_mundo_atttiny85.out hola_mundo_attiny85.hex
-
-# cargar el .hex en el attiny usando un programador.
-```
-Programa básico
-```c
-#include<avr/io.h>
-
-int main(void)
-{
-        for(;;)
-        {
-
-        }
-}
-
-```
-Programador ISP
-
-![alt tag](static/programador-usbasp-isp-para-atmel-avr.jpg)
-
-Pinout
-![alt tag](static/attiny_pinout_programmer.png)
-
-1. MISO
-2. Vcc
-3. SCK
-4. MOSI
-5. Reset
-6. Ground
-
-
 
 
 ### Programar el ATtiny con arduino
