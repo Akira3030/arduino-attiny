@@ -188,7 +188,43 @@ A favor: bajo coste --> 1.5€ ambos módulos
 ## Funduino pro mini ATMEGA328P
 
 ![alt tag](static/funduino-pro-mini-pinout.png)
+
 Alimentación: 3.3V o 5V
+
+## Arduino pro nano 3.x ATMEGA328P
+
+![alt tag](static/ArduinoNanoFront_3_sm.jpg)
+
+![alt tag](static/ArduinoNanoBack_3_sm.jpg)
+
+- Bajo coste: 2€ en Ebay
+- Microcontroller:	Atmel ATmega168 or ATmega328
+- Operating Voltage (logic level):	5 V
+- Input Voltage (recommended):	7-12 V
+- Input Voltage (limits):	6-20 V
+- Digital I/O Pins:	14 (of which 6 provide PWM output)
+- Analog Input: Pins	8
+- DC Current per I/O Pin:	40 mA
+
+Alimentación
+
+- The Arduino Nano can be powered via the Mini-B USB connection
+- 6-20V unregulated external power supply (pin 30)
+- 5V regulated external power supply (pin 27). 
+The power source is automatically selected to the highest voltage source.
+
+Entradas y salidas
+
+- Cada pin puede dar o recibir un maximo de 40mA
+- Internal pull-up resistor (disconnected by default) of 20-50 kOhms
+- PWM: 3, 5, 6, 9, 10, and 11
+- SPI: 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK)
+- LED: 13. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
+- I2C: A4 (SDA) and A5 (SCL)
+- 
+
+
+
 
 
 ## ATtiny85
