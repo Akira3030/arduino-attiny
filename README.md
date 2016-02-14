@@ -13,6 +13,7 @@ miguel.granadino@gmail.com
 * [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
+* [Arduino nano v3.x](#arduino-pro-nano-3.x-atmega328P)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
@@ -197,6 +198,8 @@ Alimentación: 3.3V o 5V
 
 ![alt tag](static/ArduinoNanoBack_3_sm.jpg)
 
+![alt tag](static/ARDUINO-NANO-V3.0.jpg)
+
 - Bajo coste: 2€ en Ebay
 - Microcontroller:	Atmel ATmega168 or ATmega328
 - Operating Voltage (logic level):	5 V
@@ -221,7 +224,9 @@ Entradas y salidas
 - SPI: 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK)
 - LED: 13. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
 - I2C: A4 (SDA) and A5 (SCL)
-- 
+
+
+![alt tag](static/nano1.png)
 
 
 
