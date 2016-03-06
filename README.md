@@ -228,6 +228,9 @@ Entradas y salidas
 
 ![alt tag](static/nano1.png)
 
+Drivers para los Nano que llevan el chip CH340:  
+http://www.wch.cn/download/CH341SER_ZIP.html
+
 
 
 
