@@ -194,6 +194,9 @@ Alimentación: 3.3V o 5V
 
 ## Arduino pro nano 3.x ATMEGA328P
 
+Drivers para los Nano que llevan el chip CH340:  
+http://www.wch.cn/download/CH341SER_ZIP.html
+
 ![alt tag](static/ArduinoNanoFront_3_sm.jpg)
 
 ![alt tag](static/ArduinoNanoBack_3_sm.jpg)
@@ -228,8 +231,7 @@ Entradas y salidas
 
 ![alt tag](static/nano1.png)
 
-Drivers para los Nano que llevan el chip CH340:  
-http://www.wch.cn/download/CH341SER_ZIP.html
+
 
 
 
