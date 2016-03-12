@@ -204,6 +204,10 @@ make
 sudo make load # cargar el driver en el kernel de Linux
 ```
 
+![alt tag](static/20160312_110149.jpg)
+
+![alt tag](static/20160312_110132.jpg)
+
 ![alt tag](static/ArduinoNanoFront_3_sm.jpg)
 
 ![alt tag](static/ArduinoNanoBack_3_sm.jpg)
