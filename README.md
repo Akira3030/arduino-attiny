@@ -14,6 +14,7 @@ miguel.granadino@gmail.com
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Funduino mini pro](#funduino-mini-pro-atmega328p)
 * [Arduino nano v3.x](#arduino-pro-nano-3.x-atmega328P)
+* [LiPo](#lipo)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
 
@@ -244,7 +245,19 @@ Entradas y salidas
 
 
 
+## LiPo
 
+Cada celda tiene un voltaje de 3,7V y se conectan en serie.
+Son recargables, si no, no serian baterias.
+> No hay que descargar nunca las baterias a menos de 3V o las romperemos provocando que no funcionen nunca mas.
+> Para cargar la bateria es recomendable hacerlo a 1C, la vida de la bateria se alarga considerablemente
+
+Tipos:
+
+> Li-PO 1S: una celda, 3,7 V.
+> Li-PO 2S: dos celdas, 7,4 V.
+> Li-PO 3S: tres celdas, 11,1 V.
+> Li-PO 4S: cuatro celdas, 14,8 V.
 
 
 
