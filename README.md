@@ -82,7 +82,9 @@ Sirven para añadir WIFI al microcontrolador
 
 - Se alimenta a 3.3v
 - Alimentarlo con una fuente externa al Arduino, tiene picos de 200ma (al arrancar).
-- Es un SoC: microcontrolador más wifi.
+- Es un SoC: microcontrolador más wifi. 
+- Configuracion mediante comandos AT
+- No necesita Arduino el ya de por si es un micontrolador (con wifi)
 
 
 ![alt tag](static/WiFi-Serial-Transceiver-Module-ESP8266.jpg)
@@ -99,7 +101,8 @@ http://nodemcu.com/index_en.html
 - Es como Arduino. Plataforma OpenHardware basada en una placa con un microcontrolador de 32 bits. Este MCU es el que ejecuta el firmware.
 
 
-
+- Wifi SoC
+- NodeMCU = ESP8266 (ESP-12) + USB to Serial + NodeMCU firmware
 - Chip principal: ESP8266 (ESP 12)
 - Chip serie de USB a TTL integrado en la placa
 - Antena: integrada en la placa
@@ -110,6 +113,8 @@ http://nodemcu.com/index_en.html
 - Soporta WPA y WPA2 (WiFi Protected Access), encriptación.
 - Interfaces: I2C/SPI, UART
 - Dos versiones: v0.9(VIEJO) y v1.0(nuevo)
+- 
+Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-board-powered-by-esp8266-wisoc/#ixzz47Ic3W2ow
 - ESP8266-12: 11 digital I/O pins and 1 Analogue input.
 - 30 metros de alcance
 - Viene con un firmware (programa) preinstalado que puedes actualizar(Flashing)
@@ -126,6 +131,22 @@ http://nodemcu.com/index_en.html
 
 - Seleccionaremos el rooter al que nos conectaremos
 - Este rooter nos dara una ip
+
+### Versiones
+
+Hay dos versiones: v0.9(VIEJO) y v1.0(nuevo):
+
+- NodeMCU v0.9 with ESP-12 module --> NodeMCU = ESP8266 (ESP-12) + USB to Serial + NodeMCU firmware 
+- NodeMCU v1.0 with ESP-12E module --> NodeMCU = ESP8266 (ESP-12E) + USB to Serial + NodeMCU firmware
+
+### Programación
+
+NodeMCU --> es un  ESP8266(12) con un conversor TTL-USB
+ESPlorer — Integrated Development Environment (IDE) para programar ESP8266 (requiere Java 7)
+Expressif ESP8622 Wi-Fi SoC
+
+### Actualizar el firmware
+
 
 
 
