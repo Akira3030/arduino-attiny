@@ -141,9 +141,16 @@ Hay dos versiones: v0.9(VIEJO) y v1.0(nuevo):
 
 ### Programación
 
-NodeMCU --> es un  ESP8266(12) con un conversor TTL-USB
-ESPlorer — Integrated Development Environment (IDE) para programar ESP8266 (requiere Java 7)
-Expressif ESP8622 Wi-Fi SoC
+*ESPlorer*
+
+Herramienta principal para el programar el ESP8266
+Integrated Development Environment (IDE) para programar ESP8266 (requiere Java 7)
+
+*MCU Studio (para Windows)*
+
+
+
+
 
 ### Actualizar el firmware
 
