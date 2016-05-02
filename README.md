@@ -134,22 +134,20 @@ Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-b
 
 ### Versiones
 
-Hay dos versiones: v0.9(VIEJO) y v1.0(nuevo):
+Hay dos versiones v0.9(viejo) y v1.0(nuevo)
 
 - NodeMCU v0.9 with ESP-12 module --> NodeMCU = ESP8266 (ESP-12) + USB to Serial + NodeMCU firmware 
 - NodeMCU v1.0 with ESP-12E module --> NodeMCU = ESP8266 (ESP-12E) + USB to Serial + NodeMCU firmware
 
 ### Programación
 
-*ESPlorer*
+*Usando el Arduino IDE*
 
-Herramienta principal para el programar el ESP8266
-Integrated Development Environment (IDE) para programar ESP8266 (requiere Java 7)
+Instalar el soporte para poder programar la placa nodeMCU usando el Arduino IDE
 
-*MCU Studio (para Windows)*
+Archivo > Preferencias > En el campo "Gestor de URLs Adicionales de Tarjetas" añadir "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
 
-
-
+Herramienta > Placa ... > Gestor de Tarjetas (al acceder se instalara automáticamente)
 
 
 ### Actualizar el firmware
