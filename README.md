@@ -144,7 +144,7 @@ Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-b
 
 Instalar el soporte para poder programar la placa nodeMCU usando el Arduino IDE
 
-Archivo > Preferencias > En el campo "Gestor de URLs Adicionales de Tarjetas" añadir "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+Archivo > Preferencias > En el campo "Gestor de URLs Adicionales de Tarjetas" añadir: http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 Herramienta > Placa ... > Gestor de Tarjetas (al acceder se instalara automáticamente)
 
