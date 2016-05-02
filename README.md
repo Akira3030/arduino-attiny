@@ -134,8 +134,7 @@ Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-b
 
 ### Versiones
 
-Hay dos versiones v0.9(viejo) y v1.0(nuevo)
-
+- Hay dos versiones v0.9(viejo) y v1.0(nuevo)
 - NodeMCU v0.9 with ESP-12 module --> NodeMCU = ESP8266 (ESP-12) + USB to Serial + NodeMCU firmware 
 - NodeMCU v1.0 with ESP-12E module --> NodeMCU = ESP8266 (ESP-12E) + USB to Serial + NodeMCU firmware
 
