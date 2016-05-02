@@ -147,6 +147,8 @@ Archivo > Preferencias > En el campo "Gestor de URLs Adicionales de Tarjetas" a√
 
 Herramienta > Placa ... > Gestor de Tarjetas (al acceder se instalara autom√°ticamente)
 
+Programa que enciende un led (test nodeMCU):
+
 ```c
 int led = D1;
 
@@ -159,8 +161,8 @@ void loop() {
   delay(500);
   digitalWrite(led, LOW);
   delay(500);
-  ```
   }
+  ```
 
 
 ### Actualizar el firmware
