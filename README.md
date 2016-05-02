@@ -147,6 +147,21 @@ Archivo > Preferencias > En el campo "Gestor de URLs Adicionales de Tarjetas" a√
 
 Herramienta > Placa ... > Gestor de Tarjetas (al acceder se instalara autom√°ticamente)
 
+```c
+int led = D1;
+
+void setup() {
+  pinMode(led, OUTPUT);
+  }
+
+void loop() {
+  digitalWrite(led, HIGH); 
+  delay(500);
+  digitalWrite(led, LOW);
+  delay(500);
+  ```
+  }
+
 
 ### Actualizar el firmware
 
