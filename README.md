@@ -113,8 +113,7 @@ http://nodemcu.com/index_en.html
 - Soporta WPA y WPA2 (WiFi Protected Access), encriptación.
 - Interfaces: I2C/SPI, UART
 - Dos versiones: v0.9(VIEJO) y v1.0(nuevo)
-- 
-Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-board-powered-by-esp8266-wisoc/#ixzz47Ic3W2ow
+- Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-board-powered-by-esp8266-wisoc/#ixzz47Ic3W2ow
 - ESP8266-12: 11 digital I/O pins and 1 Analogue input.
 - 30 metros de alcance
 - Viene con un firmware (programa) preinstalado que puedes actualizar(Flashing)
