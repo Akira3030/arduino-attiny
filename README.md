@@ -6,14 +6,15 @@ miguel.granadino@gmail.com
 ## Table of contents
 
 * [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
-* [IoT Almacenar datos](#iot-almacenar-datos)
-* [IoT Software](#iot-software)
-* [Wifi module ESP8266](#wifi-module-esp8266)
-* [Wifi NodeMCU ESP8266 ESP12](#nodemcu)
+* [ThingSpeak](#thingspeak)
+* [MQTT](#mqtt)
+* [ESP8266](#esp8266)
+* [NodeMCU](#nodemcu)
 * [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
-* [Funduino mini pro](#funduino-mini-pro-atmega328p)
-* [Arduino nano v3.x](#arduino-pro-nano-3.x-atmega328P)
+* [Arduino mini pro](#arduino-mini-pro)
+* [Arduino nano v3.x](#arduino-pro-nano)
+* [Arduino MKR1000](#arduino-mkr1000)
 * [LiPo](#lipo)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
@@ -33,9 +34,9 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
-## IoT Almacenar datos
+## ThingSpeak
 
-ThingSpeak
+![alt tag](static/thinkspeak_logo.png)
 
 - Recolección de datos en tiempo real (data collection and storage)
 - Analisis y visualización de datos
@@ -50,7 +51,9 @@ Uso:
 - Pruebalo --> http://api.thingspeak.com/channels/[CHANNEL_ID]/feed.json?key=[THINGSPEAK_KEY]
 
 
-## IoT Software
+## MQTT
+
+![alt tag](static/mqtt-tcp-ip-stack.png)
 
 MQTT --> MQ Telemetry Transport --> es un protocolo de comunicaciones ligero y rápido diseñado para Internet of Things. Su propósito es ser un protocolo de mensajes de publicación/subscripción basado en un broker ligero, diseñado para ser abierto, simple, ligero y fácil de implementar”. 
 
@@ -75,7 +78,7 @@ Mosquitto
 
 
 
-## Wifi module ESP8266
+## ESP8266
 
 
 Sirven para añadir WIFI al microcontrolador
@@ -94,6 +97,10 @@ Sirven para añadir WIFI al microcontrolador
 [Comparando Arduino y el ESP8266](http://polaridad.es/compara-arduino-esp8266/)
 
 ## NodeMCU
+
+![alt tag](static/nodemcu-logo.jpg)
+
+![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
 
 http://nodemcu.com/index_en.html
 
@@ -137,6 +144,16 @@ http://nodemcu.com/index_en.html
 - NodeMCU v0.9 with ESP-12 module --> NodeMCU = ESP8266 (ESP-12) + USB to Serial + NodeMCU firmware 
 - NodeMCU v1.0 with ESP-12E module --> NodeMCU = ESP8266 (ESP-12E) + USB to Serial + NodeMCU firmware
 
+Versión 0.9
+
+![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
+
+Versión 1.0
+
+![alt tag](static/NodeMCU__v1.0_pinout.jpg)
+
+Funcionamiento --> comandos AT
+
 ### Programación
 
 *Usando el Arduino IDE*
@@ -163,24 +180,6 @@ void loop() {
   delay(500);
   }
   ```
-
-
-### Actualizar el firmware
-
-
-
-
-![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
-
-Versión 0.9
-
-![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
-
-Versión 1.0
-
-![alt tag](static/NodeMCU__v1.0_pinout.jpg)
-
-Funcionamiento --> comandos AT
 
 
 ## NRF24l01
@@ -228,13 +227,15 @@ Problema: alcance muy corto 1.5m - 2m, posibilidades de perdida de datos alta.
 A favor: bajo coste --> 1.5€ ambos módulos
 
 
-## Funduino pro mini ATMEGA328P
+## Arduino pro mini
 
 ![alt tag](static/funduino-pro-mini-pinout.png)
 
 Alimentación: 3.3V o 5V
 
-## Arduino pro nano 3.x ATMEGA328P
+## Arduino pro nano
+
+Funduino Pro Nano 3.x
 
 Drivers para los Nano que llevan el chip CH340:  
 http://www.wch.cn/download/CH341SER_ZIP.html
@@ -283,6 +284,22 @@ Entradas y salidas
 
 
 ![alt tag](static/nano1.png)
+
+## Arduino MKR1000
+
+https://www.arduino.cc/en/Main/ArduinoMKR1000
+
+![alt tag](static/static/mkr1000.png)
+
+- Microcontroller	SAMD21 Cortex-M0+ 32bit low power ARM MCU
+- Board Power Supply (USB/VIN)	5V
+- Supported Battery(*)	Li-Po single cell, 3.7V, 700mAh minimum
+- Circuit Operating Voltage	3.3V
+- Digital I/O Pins	8
+- PWM Pins	12 (0, 1, 2, 3, 4, 5, 6, 7, 8, 10, A3 - or 18 -, A4 -or 19)
+- UART	1
+- SPI	1
+- I2C	1
 
 
 
