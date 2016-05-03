@@ -169,11 +169,6 @@ void loop() {
   ```
 
 
-### Actualizar el firmware
-
-
-
-
 ![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
 
 Versión 0.9
