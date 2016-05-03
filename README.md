@@ -99,6 +99,8 @@ Sirven para añadir WIFI al microcontrolador
 
 ![alt tag](static/nodemcu-logo.jpg)
 
+![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
+
 http://nodemcu.com/index_en.html
 
 - NodeMCU no es más que un ESP8266-12(12 GPIOS) con conversor USB-TTL y conversor de 5v a 3.3v en una misma placa.
@@ -141,6 +143,16 @@ http://nodemcu.com/index_en.html
 - NodeMCU v0.9 with ESP-12 module --> NodeMCU = ESP8266 (ESP-12) + USB to Serial + NodeMCU firmware 
 - NodeMCU v1.0 with ESP-12E module --> NodeMCU = ESP8266 (ESP-12E) + USB to Serial + NodeMCU firmware
 
+Versión 0.9
+
+![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
+
+Versión 1.0
+
+![alt tag](static/NodeMCU__v1.0_pinout.jpg)
+
+Funcionamiento --> comandos AT
+
 ### Programación
 
 *Usando el Arduino IDE*
@@ -167,19 +179,6 @@ void loop() {
   delay(500);
   }
   ```
-
-
-![alt tag](static/NEW-Version-NodeMcu-Lua-ESP8266-CH340-WIFI-Internet.jpg)
-
-Versión 0.9
-
-![alt tag](static/NodeMCU_v0.9_Pinout.jpg)
-
-Versión 1.0
-
-![alt tag](static/NodeMCU__v1.0_pinout.jpg)
-
-Funcionamiento --> comandos AT
 
 
 ## NRF24l01
