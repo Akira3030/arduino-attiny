@@ -208,12 +208,12 @@ void loop() {
  ```c
 #include <ESP8266WiFi.h>
 
-const char* ssid = "MOVISTAR_9140";
-const char* password = "9MM4KJJYA3WFJaaNUcUU";
+const char* ssid = "";
+const char* password = "";
 
 const char* host = "data.sparkfun.com";
 const char* publicKey   = "3JwLzWEJXQU3OwxXVm0A";
-const char* privateKey = "oZyJ5pkZ89hn2JW7GB45";
+const char* privateKey = "";
 
 void setup() {
   Serial.begin(115200);
