@@ -289,7 +289,7 @@ Entradas y salidas
 
 https://www.arduino.cc/en/Main/ArduinoMKR1000
 
-![alt tag](static/static/mkr1000.png)
+![alt tag](static/mkr1000.png)
 
 - Microcontroller	SAMD21 Cortex-M0+ 32bit low power ARM MCU
 - Board Power Supply (USB/VIN)	5V
