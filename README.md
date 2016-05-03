@@ -7,6 +7,7 @@ miguel.granadino@gmail.com
 
 * [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
 * [ThingSpeak](#thingspeak)
+* [Data Sparkfun](#data-stream-sparkfun)
 * [MQTT](#mqtt)
 * [ESP8266](#esp8266)
 * [NodeMCU](#nodemcu)
@@ -49,6 +50,27 @@ Uso:
 - Crear un canal (channel)
 - Ir a API Keys y obtener tu llave (key)
 - Pruebalo --> http://api.thingspeak.com/channels/[CHANNEL_ID]/feed.json?key=[THINGSPEAK_KEY]
+- 
+
+
+## Data Stream Sparkfun
+
+ data.sparkfun.com
+
+![alt tag](static/F66HPY0IGPEKYX3.MEDIUM.jpg)
+
+ 
+ Crear un Data Stream
+ 
+ Data Stream: NodeMCU Test Data Stream
+ Public key: 3JwLzWEJXQU3OwxXVm0A
+ Public URL: http://data.sparkfun.com/streams/3JwLzWEJXQU3OwxXVm0A
+ Private key: 
+ Delete key: 
+ 
+ http://data.sparkfun.com/input/[publicKey]?private_key=[privateKey]&field2=[value]&fileld1=[value]
+ 
+ 
 
 
 ## MQTT
