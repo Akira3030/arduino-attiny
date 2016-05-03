@@ -14,6 +14,7 @@ miguel.granadino@gmail.com
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
 * [Arduino mini pro](#arduino-mini-pro)
 * [Arduino nano v3.x](#arduino-pro-nano)
+* [Arduino MKR1000](#arduino-mkr1000)
 * [LiPo](#lipo)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
@@ -283,6 +284,22 @@ Entradas y salidas
 
 
 ![alt tag](static/nano1.png)
+
+## Arduino MKR1000
+
+https://www.arduino.cc/en/Main/ArduinoMKR1000
+
+![alt tag](static/static/mkr1000.png
+
+- Microcontroller	SAMD21 Cortex-M0+ 32bit low power ARM MCU
+- Board Power Supply (USB/VIN)	5V
+- Supported Battery(*)	Li-Po single cell, 3.7V, 700mAh minimum
+- Circuit Operating Voltage	3.3V
+- Digital I/O Pins	8
+- PWM Pins	12 (0, 1, 2, 3, 4, 5, 6, 7, 8, 10, A3 - or 18 -, A4 -or 19)
+- UART	1
+- SPI	1
+- I2C	1
 
 
 
