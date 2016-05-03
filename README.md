@@ -1,4 +1,4 @@
-# ARDUINO - ATTINY - WIRELESS - IOT - RF
+# ARDUINO - ATTINY - WIRELESS - IOT - RF - SENSORS
 
 miguel.granadino@gmail.com
 
@@ -6,14 +6,14 @@ miguel.granadino@gmail.com
 ## Table of contents
 
 * [IoT con Arduino y RPi](#iot-con-arduino-y-rpi)
-* [IoT Almacenar datos](#iot-almacenar-datos)
-* [IoT Software](#iot-software)
-* [Wifi module ESP8266](#wifi-module-esp8266)
-* [Wifi NodeMCU ESP8266 ESP12](#nodemcu)
+* [ThingSpeak](#thingspeak)
+* [MQTT](#mqtt)
+* [ESP8266](#esp8266)
+* [NodeMCU](#nodemcu)
 * [NRF24l01](#nrf24l01)
 * [Modulos 433MHz](#rf-433-mhz-modulos-transmisor-y-receptor)
-* [Funduino mini pro](#funduino-mini-pro-atmega328p)
-* [Arduino nano v3.x](#arduino-pro-nano-3.x-atmega328P)
+* [Arduino mini pro](#arduino-mini-pro)
+* [Arduino nano v3.x](#arduino-pro-nano)
 * [LiPo](#lipo)
 * [ATtiny85](#attiny85)
 * [Transmision de video en tiempo real](#transmision-de-video-en-tiempo-real)
@@ -33,9 +33,9 @@ Ejemplo de arquitectua hardware:
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
 
-## IoT Almacenar datos
+## ThingSpeak
 
-ThingSpeak
+![alt tag](static/thinkspeak_logo.png)
 
 - Recolección de datos en tiempo real (data collection and storage)
 - Analisis y visualización de datos
@@ -50,7 +50,9 @@ Uso:
 - Pruebalo --> http://api.thingspeak.com/channels/[CHANNEL_ID]/feed.json?key=[THINGSPEAK_KEY]
 
 
-## IoT Software
+## MQTT
+
+![alt tag](static/mqtt-tcp-ip-stack.png)
 
 MQTT --> MQ Telemetry Transport --> es un protocolo de comunicaciones ligero y rápido diseñado para Internet of Things. Su propósito es ser un protocolo de mensajes de publicación/subscripción basado en un broker ligero, diseñado para ser abierto, simple, ligero y fácil de implementar”. 
 
@@ -75,7 +77,7 @@ Mosquitto
 
 
 
-## Wifi module ESP8266
+## ESP8266
 
 
 Sirven para añadir WIFI al microcontrolador
@@ -94,6 +96,8 @@ Sirven para añadir WIFI al microcontrolador
 [Comparando Arduino y el ESP8266](http://polaridad.es/compara-arduino-esp8266/)
 
 ## NodeMCU
+
+![alt tag](static/nodemcu-logo.jpg)
 
 http://nodemcu.com/index_en.html
 
@@ -228,13 +232,15 @@ Problema: alcance muy corto 1.5m - 2m, posibilidades de perdida de datos alta.
 A favor: bajo coste --> 1.5€ ambos módulos
 
 
-## Funduino pro mini ATMEGA328P
+## Arduino pro mini
 
 ![alt tag](static/funduino-pro-mini-pinout.png)
 
 Alimentación: 3.3V o 5V
 
-## Arduino pro nano 3.x ATMEGA328P
+## Arduino pro nano
+
+Funduino Pro Nano 3.x
 
 Drivers para los Nano que llevan el chip CH340:  
 http://www.wch.cn/download/CH341SER_ZIP.html
