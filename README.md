@@ -9,7 +9,9 @@ miguel.granadino@gmail.com
 * [ThingSpeak](#thingspeak)
 * [Data Sparkfun](#data-stream-sparkfun)
 * [Analog.io](#analog.io)
-* [Freeboard.io](freeboard.io)
+* [Freeboard.io](#freeboard.io)
+* [Thinger.io](#thinger.io)
+* [io.adafruit](#io.adafruit)
 * [MQTT](#mqtt)
 * [ESP8266](#esp8266)
 * [NodeMCU](#nodemcu)
@@ -83,6 +85,21 @@ GitHub --> https://github.com/Freeboard/freeboard
 Dashboards para la visualización de los datos
 
 tutorial --> http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/
+
+## Thinger.io
+
+https://thinger.io/
+
+Dashboard iot real time
+
+tutorial --> https://community.thinger.io/t/create-real-time-iot-dashboards/50
+
+## io.adafruit
+
+https://io.adafruit.com/
+
+No parece gran cosa
+
 
 
 ## MQTT
