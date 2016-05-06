@@ -9,6 +9,7 @@ miguel.granadino@gmail.com
 * [ThingSpeak](#thingspeak)
 * [Data Sparkfun](#data-stream-sparkfun)
 * [Analog.io](#analog.io)
+* [Freeboard.io](freeboard.io)
 * [MQTT](#mqtt)
 * [ESP8266](#esp8266)
 * [NodeMCU](#nodemcu)
@@ -71,6 +72,17 @@ Uso:
  
  
 ## Analog.io
+
+
+## freeboard.io
+
+https://freeboard.io/
+
+GitHub --> https://github.com/Freeboard/freeboard
+
+Dashboards para la visualización de los datos
+
+tutorial --> http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/
 
 
 ## MQTT
