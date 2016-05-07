@@ -38,15 +38,28 @@ Ejemplo de arquitectua hardware:
 
 [Fuente - parte 2](http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/)
 
+ 
+ 
 
-## ThingSpeak
+## Plataformas IoT
+
+Con los datos generados por los sensores podemos hacer:
+
+- Monitorización en tiempo real
+- Recolección/Almacenar
+- Analisis
+- Compartir
+- Monitorizar datos
+
+Para realizar esa tarea podemos usar alguna de las plataformas existentes.
+
+### ThingSpeak
 
 ![alt tag](static/thinkspeak_logo.png)
 
 - Recolección de datos en tiempo real (data collection and storage)
 - Analisis y visualización de datos
 - ...
-
 
 Uso:
 
@@ -56,7 +69,7 @@ Uso:
 - Pruebalo --> http://api.thingspeak.com/channels/[CHANNEL_ID]/feed.json?key=[THINGSPEAK_KEY]
 
 
-## Data Stream Sparkfun
+### Data Stream Sparkfun
 
  data.sparkfun.com
 
@@ -71,12 +84,13 @@ Uso:
  - Private key: 
  - Delete key: 
  - http://data.sparkfun.com/input/[publicKey]?private_key=[privateKey]&field2=[value]&fileld1=[value]
- 
- 
-## Analog.io
+
+### Analog.io
+
+https://hackaday.io/project/4648-analogio-a-full-stack-iot-platform
 
 
-## freeboard.io
+### Freeboard.io
 
 https://freeboard.io/
 
@@ -86,7 +100,7 @@ Dashboards para la visualización de los datos
 
 tutorial --> http://thenewstack.io/tutorial-configuring-a-sensor-node-and-iot-gateway-to-collect-and-visualize-data-part-2/
 
-## Thinger.io
+### Thinger.io
 
 https://thinger.io/
 
@@ -94,12 +108,11 @@ Dashboard iot real time
 
 tutorial --> https://community.thinger.io/t/create-real-time-iot-dashboards/50
 
-## io.adafruit
+### io.adafruit
 
 https://io.adafruit.com/
 
 No parece gran cosa
-
 
 
 ## MQTT
