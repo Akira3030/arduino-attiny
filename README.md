@@ -49,6 +49,7 @@ Ejemplo de arquitectua hardware:
 - Monitorización en tiempo real
 - Recolección/Almacenar
 - Analisis
+- Visualizar la información (gráficos)
 - Compartir
 
 *Con los dispositivos se puede*
