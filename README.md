@@ -12,6 +12,7 @@ miguel.granadino@gmail.com
 * [Freeboard.io](#freeboard.io)
 * [Thinger.io](#thinger.io)
 * [io.adafruit](#io.adafruit)
+* [Azure IoT Hub](#azure-iot-hub)
 * [MQTT](#mqtt)
 * [ESP8266](#esp8266)
 * [NodeMCU](#nodemcu)
@@ -43,13 +44,19 @@ Ejemplo de arquitectua hardware:
 
 ## Plataformas IoT
 
-Con los datos generados por los sensores podemos hacer:
+*Con los datos generados por los sensores podemos hacer:*
 
 - Monitorización en tiempo real
 - Recolección/Almacenar
 - Analisis
 - Compartir
-- Monitorizar datos
+
+*Con los dispositivos se puede*
+
+- Monitorizarlos
+- Conectarlos entre si
+- Gestionar
+
 
 Para realizar esa tarea podemos usar alguna de las plataformas existentes.
 
@@ -113,6 +120,12 @@ tutorial --> https://community.thinger.io/t/create-real-time-iot-dashboards/50
 https://io.adafruit.com/
 
 No parece gran cosa
+
+### Azure IoT Hub
+
+Conectar
+Monitorizar
+Gestionar
 
 
 ## MQTT
